@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elijah Hansen - Robotics & Engineering Portfolio">
+    <title>Elijah Hansen - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Elijah Hansen</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Elijah Hansen</span></h1>
+            <p class="hero-subtitle">Robotics Engineer & Maker</p>
+            <p class="hero-description">Building innovative robots and advanced prosthetics with cutting-edge technology</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a robotics engineer and maker specializing in advanced prosthetics, humanoid robotics, and innovative mechanical design. I work at Make Salt Lake as a project assistant and maintenance technician, where I build cutting-edge projects in my downtime.</p>
+                    <p>My work combines 3D printing, electronics, programming, and mechanical engineering to create unique solutions. From full-scale humanoid robots to prosthetic fingers with 3D-printed bone analogs, I push the boundaries of what's possible with maker technology.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Major Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h4>3D</h4>
+                            <p>Printing Expert</p>
+                        </div>
+                        <div class="stat">
+                            <h4>Robotics</h4>
+                            <p>Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotics Engineering</h3>
+                    <p>Humanoid robots, bipedal movement, object manipulation, AI reinforcement learning</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Printing & CAD</h3>
+                    <p>Dual extrusion, TPU/PLA composites, Snapmaker A350, HueForge, CAD design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Electronics & Programming</h3>
+                    <p>ESP32, Arduino, wireless communication, sensor integration, motor control</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Prosthetics Design</h3>
+                    <p>Advanced prosthetics, haptic feedback, pressure sensors, adaptive grip systems</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Mechanical Design</h3>
+                    <p>Novel clutch systems, print-in-place mechanisms, structural engineering</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Manufacturing</h3>
+                    <p>CNC machining, mass production, B2B sales, market research, fundraising</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/humanoid_robot.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View project on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Full-Scale Humanoid Robot</h3>
+                        <p>Built for APEX Cybernetics with bipedal movement, object recognition, object manipulation, and custom AI reinforcement learning.</p>
+                        <div class="project-tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/prosthetic_finger_2.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View project on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>3D Printed Prosthetic Finger</h3>
+                        <p>World's first 3D printed analog for human bones using dual-extrusion TPU and PLA. Features 2 degrees of freedom and high grip strength.</p>
+                        <div class="project-tags">
+                            <span class="tag">3D Printing</span>
+                            <span class="tag">Prosthetics</span>
+                            <span class="tag">CAD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/robotic_arm.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View project on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Full-Scale Robotic Human Arm</h3>
+                        <p>Controlled by exo-arm and haptic glove with wireless ESP32 communication up to 500 meters. Features adaptive grip and pressure sensing.</p>
+                        <div class="project-tags">
+                            <span class="tag">ESP32</span>
+                            <span class="tag">Haptics</span>
+                            <span class="tag">Wireless</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/webshooter_main.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View project on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Spider-Man Web Shooter</h3>
+                        <p>Retractable web shooter with novel magnetic centrifugal clutch. Fires magnetic dart and retracts load quickly. Currently upgrading to brushless motor.</p>
+                        <div class="project-tags">
+                            <span class="tag">Mechanical</span>
+                            <span class="tag">Electronics</span>
+                            <span class="tag">Arduino</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/hueforge_2.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://makersmastery.etsy.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Etsy store">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HueForge Art & Custom Dice</h3>
+                        <p>Large-scale HueForge projects and custom 5-color Ravnica dice for D&D campaigns. Available on Etsy storefront.</p>
+                        <div class="project-tags">
+                            <span class="tag">3D Printing</span>
+                            <span class="tag">Art</span>
+                            <span class="tag">Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/omnitrix.jpeg');">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View project on GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ben 10 Omnitrix (In Development)</h3>
+                        <p>Working Omnitrix with 3 aliens: Heatblast (flamethrower), Feedback (taser), and Wildvine (webshooter). Includes LCD display and effects.</p>
+                        <div class="project-tags">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Integration</span>
+                            <span class="tag">Ambitious</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Interested in robotics, prosthetics, or innovative maker projects? Let's collaborate!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Make Salt Lake - Project Assistant</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Salt Lake City, UT</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Makers-Mastery" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://makersmastery.etsy.com" target="_blank" rel="noopener noreferrer" aria-label="Etsy Store">
+                            <i class="fab fa-etsy"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Elijah Hansen. All rights reserved.</p>
+            <p>Robotics Engineer & Maker</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
