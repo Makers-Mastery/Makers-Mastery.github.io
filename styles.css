@@ -402,6 +402,8 @@ section {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     position: relative;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .project-overlay {
