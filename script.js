@@ -189,17 +189,17 @@ window.addEventListener('scroll', () => {
 });
 
 // Stats counter animation
-function animateCounter(element, target, duration) {
+function animateCounter(element, target, duration, suffix) {
     let start = 0;
     const increment = target / (duration / 16); // 60 FPS
     
     const timer = setInterval(() => {
         start += increment;
         if (start >= target) {
-            element.textContent = target + (element.textContent.includes('+') ? '+' : '%');
+            element.textContent = target + suffix;
             clearInterval(timer);
         } else {
-            element.textContent = Math.floor(start) + (element.textContent.includes('+') ? '+' : '%');
+            element.textContent = Math.floor(start) + suffix;
         }
     }, 16);
 }
@@ -211,10 +211,11 @@ const statsObserver = new IntersectionObserver((entries) => {
             const statNumber = entry.target.querySelector('h4');
             const text = statNumber.textContent;
             const number = parseInt(text.replace(/\D/g, ''));
+            const suffix = text.replace(/\d/g, '');
             
             if (!entry.target.classList.contains('counted')) {
                 entry.target.classList.add('counted');
-                animateCounter(statNumber, number, 2000);
+                animateCounter(statNumber, number, 2000, suffix);
             }
         }
     });
